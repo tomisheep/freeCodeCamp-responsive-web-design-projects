@@ -1,6 +1,6 @@
 <h1>freeCodeCamp Responsive Web Design Certification</h1>
 
-This repository contains all the projects I have completed as part of the certification program. Each project is organized into its own folder, and each folder contains a README file that describes how the project works and what I learned during its development.
+This repository contains all the projects I have completed as part of the freeCodeCamp's Responsive Web Design program. Each project is organized into its own folder, and each folder contains a README file that describes how the project works and what I learned during its development.
 
 <h2>About the Course</h2>
 
