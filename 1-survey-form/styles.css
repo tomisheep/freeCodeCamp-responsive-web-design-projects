@@ -1,150 +1,153 @@
 body {
-    background: linear-gradient(rgba(27, 27, 50, 1), rgba(255, 219, 88, 0.3)),
-                url('https://cdn.pixabay.com/photo/2015/08/13/01/00/keyboard-886462_1280.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  #title {
-    text-align: center;
-    color: white;
-    font-weight: 400;
-    background: linear-gradient(to right, #2a2a4f, #4b4b6b, #5c5c80);
-    padding: 20px;
-    width: 640px;
-    margin: 20px auto;
-    border-radius: 0.25rem;
-  }
-  
-  #line {
-    border-bottom: 6px dotted white;
-    width: 680px;
-    margin: 20px auto;
-  }
-  
-  #description {
-    color: white;
-    padding: 25px;
-    background-color: rgba(17, 17, 40, 0.67);
-    font-size: 15px;
-    width: 640px;
-    margin: 20px auto;
-    font-style: italic;
-    border-radius: 0.25rem;
-  }
-  
-  form {
-    color: white;
-    background: linear-gradient(to right, #1b1b32, #3a3a48, #484858);
-    width: 640px;
-    margin: 20px auto;
-    padding: 25px;
-    border-radius: 0.25rem;
-  }
-  
-  label {
-    display: block;
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="number"],
-  select,
-  textarea {
-    width: calc(100% - 20px);
-    height: 2.375rem;
-    padding: 0.375rem 10px;
-    color: #495057;
-    background-color: white;
-    border: 1px solid #f0f0f0;
-    border-radius: 0.5rem;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    margin-top: 6px;
-    margin-bottom: 15px;
-  }
-  
-  textarea {
-    width: calc(100% - 20px);
-      height: 10rem;
-      padding: 0.375rem 0.75rem;
-      color: white;
-      background-color: #252537;
-      background-clip: padding-box;
-      border: 1px solid #f0f0f0;
-      border-radius: 0.5rem;
-      font-family: "Poppins";
-      font-size: 16px;
-      margin-top: 6px;
-      resize: none;
-  }
-  
-  #dropdown {
-    width: 100%;
-    height: 2.375rem;
-    padding: 0.375rem 10px;
-    color: #495057;
-    background-color: white;
-    border: 1px solid #f0f0f0;
-    border-radius: 0.5rem;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    margin-top: 6px;
-    margin-bottom: 15px;
-  
-  }
-  
-  #number {
-    margin-bottom: 15px;
-  }
-  
-  
-  
-  #radio-label {
-    font-family: "Poppins";
-    font-size: 20px;
-  }
-  
-  
-  fieldset {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
-  #submit {
-    display: block;
-    width: 100%;
-    height: 3rem;
-    margin-top: 30px;
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    background: linear-gradient(to right, 
-                #0077ff, #00aaff, #00ddff, #00ffcc, #00ff99, #00ff66, #00ff33);
-    font-family: "Poppins", sans-serif;
-    border: 1px solid #f0f0f0;
-    border-radius: 0.5rem;
-    cursor: pointer;
-  }
-  
-  footer {
-    margin-top: 5rem;
-    font-size: 22px;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  footer a {
-    color: red;
-    text-decoration: none;
-  }
-  
-  footer a:visited {
-    color: limegreen;
-  }
+  background: linear-gradient(rgba(27, 27, 50, 1), rgba(255, 219, 88, 0.3)),
+    url("https://cdn.pixabay.com/photo/2015/08/13/01/00/keyboard-886462_1280.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  background: linear-gradient(to right, #2a2a4f, #4b4b6b, #5c5c80);
+  padding: 20px;
+  width: 640px;
+  margin: 20px auto;
+  border-radius: 0.25rem;
+}
+
+#line {
+  border-bottom: 6px dotted white;
+  width: 680px;
+  margin: 20px auto;
+}
+
+#description {
+  color: white;
+  padding: 25px;
+  background-color: rgba(17, 17, 40, 0.67);
+  font-size: 15px;
+  width: 640px;
+  margin: 20px auto;
+  font-style: italic;
+  border-radius: 0.25rem;
+}
+
+form {
+  color: white;
+  background: linear-gradient(to right, #1b1b32, #3a3a48, #484858);
+  width: 640px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 0.25rem;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: calc(100% - 20px);
+  height: 2.375rem;
+  padding: 0.375rem 10px;
+  color: #495057;
+  background-color: white;
+  border: 1px solid #f0f0f0;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: calc(100% - 20px);
+  height: 10rem;
+  padding: 0.375rem 0.75rem;
+  color: white;
+  background-color: #252537;
+  background-clip: padding-box;
+  border: 1px solid #f0f0f0;
+  border-radius: 0.5rem;
+  font-family: "Poppins";
+  font-size: 16px;
+  margin-top: 6px;
+  resize: none;
+}
+
+#dropdown {
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 10px;
+  color: #495057;
+  background-color: white;
+  border: 1px solid #f0f0f0;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+}
+
+#number {
+  margin-bottom: 15px;
+}
+
+#radio-label {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+fieldset {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  margin-top: 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    #0077ff,
+    #00aaff,
+    #00ddff,
+    #00ffcc,
+    #00ff99,
+    #00ff66,
+    #00ff33
+  );
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #f0f0f0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 5rem;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+footer a {
+  color: red;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: limegreen;
+}
