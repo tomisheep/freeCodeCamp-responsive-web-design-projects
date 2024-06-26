@@ -26,8 +26,8 @@ header p {
   max-width: 100%;
   display: block;
   height: auto;
+  max-height: 500px;
   margin: 0 auto;
-  height: 500px;
 }
 
 #img-caption {
