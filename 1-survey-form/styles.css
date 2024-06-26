@@ -137,17 +137,23 @@ fieldset {
 }
 
 footer {
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-size: 22px;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  color: #f4f4f4;
 }
 
 footer a {
-  color: red;
-  text-decoration: none;
+  color: #ff6666;
+  text-decoration: underline;
+  transition: color 0.3s;
 }
 
 footer a:visited {
   color: limegreen;
+}
+
+footer a:hover {
+  color: #007bff;
 }
