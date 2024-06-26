@@ -1,0 +1,91 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+}
+
+main {
+    background-color: beige;
+    border-radius: 1%;
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+header p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: 8px dotted black;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    height: 500px;
+}
+
+#img-caption {
+    display: block;
+    text-align: center;
+}
+
+#img-div {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    width: 100%;
+
+}
+
+#tribute-info h1 {
+    text-align: center;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    margin: 16px;
+    font-size: 20px;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#lisä {
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  
+  footer a {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  footer a:visited {
+    color: limegreen;
+  }
