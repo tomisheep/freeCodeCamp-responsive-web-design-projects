@@ -13,7 +13,8 @@ The freeCodeCamp Responsive Web Design curriculum is a program that covers the f
     * Key Learnings: HTML forms, input elements, form validation, basic CSS styling.
 
 * <strong>Project 2: Tribute Page</strong>
-    * Not completed yet
+    * A simple tribute page for a fictional or real character.
+    * Key Learnings: CSS Box Model, CSS Flexbox, Typography, Accessibility
 
 * <strong>Project 3: Technical Documentation Page</strong>
     * Not completed yet
