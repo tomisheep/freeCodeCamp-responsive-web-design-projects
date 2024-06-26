@@ -1,71 +1,110 @@
 body {
-  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  background: linear-gradient(135deg, #333, #555);
+  color: #f4f4f4;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  background-color: black;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #2c2c2c;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
 }
 
-main {
-  background-color: beige;
-  border-radius: 1%;
-}
-
-header {
+#header {
   text-align: center;
-  font-size: 2rem;
+  color: #f4f4f4;
 }
 
-header p {
-  font-size: 20px;
-  padding-bottom: 30px;
-  border-bottom: 8px dotted black;
-  position: relative;
-  margin-bottom: 30px;
+#border {
+  width: 100%;
+  height: 3px;
+  background-color: #007bff;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
 }
 
 #image {
   max-width: 100%;
-  display: block;
   height: auto;
-  max-height: 500px;
-  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 #img-caption {
-  display: block;
-  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+  color: #aaa;
 }
 
-#img-div {
-  background-color: white;
-  padding-top: 30px;
-  padding-bottom: 1px;
-  width: 100%;
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #f4f4f4;
 }
 
 #tribute-info h1 {
   text-align: center;
+  padding-bottom: 20px;
+  border-top: 6px dotted #555;
+  padding-top: 20px;
+  color: #007bff;
 }
 
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-  unicode-bidi: isolate;
-  margin: 16px;
-  font-size: 20px;
+p {
+  font-size: 1.5em;
+  line-height: 1.8;
 }
 
 ul {
-  max-width: 550px;
-  margin: 0 auto 50px auto;
-  text-align: left;
-  line-height: 1.6;
+  list-style: none;
+  padding: 0;
 }
 
-#lisä {
-  margin-top: 10px;
-  padding-top: 10px;
-  text-align: center;
-  padding-bottom: 20px;
+li {
+  margin: 15px 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+#tribute-info {
+  border-bottom: 6px dotted #555;
+  padding-bottom: 25px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff6666;
+}
+
+a:focus {
+  outline: 2px dashed #007bff;
+}
+
+#tribute-link {
+  font-weight: bold;
 }
 
 footer {
@@ -73,14 +112,33 @@ footer {
   font-size: 22px;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: #f4f4f4;
 }
 
 footer a {
-  color: red;
+  color: #ff6666;
   text-decoration: underline;
+  transition: color 0.3s;
 }
 
 footer a:visited {
   color: limegreen;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 600px) {
+  #main {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
 }
