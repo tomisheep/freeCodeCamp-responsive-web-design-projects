@@ -1,8 +1,8 @@
 This is the first project of the freeCodeCamp's Responsive Web Design course. The project focuses on creating a simple survey form with requested features such as a dropdown menu, select function, radio buttons, and checkboxes. Throughout the project, I learned several key concepts and skills essential for web development. Key things I learned:
 
 1. HTML Structure and Semantics:
-   * Understanding the basic structure of an HTML document, including elements such as <head>, <body>, and <footer>.
-   * Using semantic elements like <form>, <label>, <input>, and <textarea> to create a meaningful and accessible form structure.
+   * Understanding the basic structure of an HTML document, including elements such as head, body, and footer.
+   * Using semantic elements like form, label, input, and textarea to create a meaningful and accessible form structure.
    * Adding things like Google Fonts integration, adding images and understanding of meta elements.
 
 2. Form Elements:
